@@ -1,0 +1,231 @@
+/* Navbar */
+.navbar {
+    font-family: 'Titillium Web', sans-serif;
+    transition: background-color 200ms ease-in-out;
+}
+
+.nav-custom {
+    margin-right : 30px;
+    font-weight : 600;
+    color : black !important;
+}
+
+.navbar-brand {
+    font-size : 32px;
+}
+
+.navbar.scrolled {
+    background-color: #F89C1B;
+    color : #FFFFFF;
+    transition: background-color 500ms ease-in-out;
+}
+
+.navbar.activated {
+    background-color: #F89C1B;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color : #000000;
+}
+
+.entah.scrolled {
+    color : #FFFFFF !important;
+}
+
+.navbar-brand.scrolled {
+    color: #FFFFFF;
+}
+
+/* Jumbotron */ 
+.jumbotron-space {
+    text-align : justify;
+    margin : 180px 0 180px 0;
+}
+
+.jumbotron-image {
+    display: flex;
+    justify-content: right;
+}
+
+/* Our Services */ 
+.our-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+
+.our-services-text .marklist {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+
+.our-services-text .logo {
+    font-size: 30px;
+}
+
+/* Why US */
+.why-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 180px;
+    text-align: center;
+}
+
+.card .card-text {
+    margin: 0;
+    font-size: 14px;
+}
+
+/*  Testimonials */
+.testimonials {
+    text-align: center;
+}
+
+.carousel-inner {
+    height: 400px;
+    margin: 30px 0 180px 0;
+}
+
+.carousel-control i {
+    font-size: 50px;
+    color: #000000;
+}
+
+/* Subscribe */
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F89C1B;
+    color: #FFFFFF;
+    text-align: center;
+    height: 450px;
+}
+
+/* FAQ */
+.faq {
+    height: 500px;
+    margin: 140px 0 140px 0;
+}
+
+.faq .card {
+    margin-top: 12px;
+}
+
+.faq .card .card-header {
+    background-color: #FFFFFF;
+}
+
+.faq .card button {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #F89C1B;
+    color: #FFFFFF;
+}
+
+.footer-column {
+    padding: 0;
+}
+
+.footer-column .footer-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer-column a, i{
+    color: #FFFFFF;
+    padding: 5px 0 5px 0;
+}
+
+/* Utility */
+.tombol {
+    color : #ffffff;
+    font-weight : 600;
+    background-color: #77287D;
+    width: 106px;
+}
+
+.row h3{
+    font-size : 40px;
+    font-weight : 200;
+    text-transform : uppercase;
+    margin-top : 30px;
+}
+
+.row span{
+    font-weight : 500;
+}
+
+.row p {
+    font-size : 18px;
+    color : #000000;
+    font-weight: 200;
+    margin : 30px 0;
+}
+
+.stars .checked {
+    color: orange;
+}
+
+/* Phone */
+@media (max-width: 992px) { 
+    .navbar-nav .tombol {
+        width: 100%;
+    }
+
+    .navbar-brand.scrolled {
+        color: #FFFFFF;
+    }
+
+    .jumbotron-space {
+        text-align: center;
+        margin-top : 140px;
+        position: relative;
+    }
+    
+    .jumbotron-text {
+        position: absolute;
+        z-index : 2;
+    }
+    
+    .jumbotron-image {
+        position : relative;
+        z-index : 1;
+        opacity: 0.5;
+        text-align: center;
+    }
+    
+    .our-services {
+        text-align: center;
+        margin-top: 180px;
+    }
+
+    .faq {
+        text-align: center;
+        height: 780px;
+    }
+
+    .footer-column {
+        margin: 15px 0 15px 0;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
